@@ -1,0 +1,83 @@
+/* 🎨 Clue AI Dark Theme for Control + Commands + Side Windows */
+
+body {
+  margin: 0;
+  background: #0c111b; /* Deep navy background */
+  color: #dfe9ff;      /* Soft blue-white text */
+  font-family: "Segoe UI", sans-serif;
+  font-size: 14px;
+  padding: 12px;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #ffe07a; /* Clue AI gold */
+  text-align: center;
+  text-shadow: 0 0 4px #000;
+  margin-bottom: 10px;
+}
+
+/* Labels and layout */
+label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 4px;
+  font-weight: 600;
+  color: #ffcf5d;
+}
+
+/* Inputs and buttons */
+input, button, select, textarea {
+  background: #1a2030;
+  color: #fff;
+  border: 1px solid #333;
+  border-radius: 5px;
+  padding: 6px 10px;
+  font-size: 14px;
+}
+
+button {
+  background: #1f2b45;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background: #2c3d63;
+  cursor: pointer;
+}
+
+/* Range sliders */
+input[type="range"] {
+  width: 100%;
+  accent-color: #ffe07a;
+}
+
+/* List (for TikTok command window) */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin: 6px 0;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 6px 8px;
+  border-radius: 4px;
+}
+
+/* Divider line styling (optional) */
+hr {
+  border: none;
+  height: 1px;
+  background: #2a2f3d;
+  margin: 12px 0;
+}
+
+/* Footer or note text */
+footer, small {
+  color: #999;
+  display: block;
+  text-align: center;
+  margin-top: 12px;
+  font-size: 12px;
+}

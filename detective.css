@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  background: #0c111b;
+  color: #dfe9ff;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 14px;
+  padding: 10px;
+}
+
+h2 {
+  text-align: center;
+  color: #ffe07a;
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin: 8px 0 4px;
+  color: #ffcf5d;
+  border-bottom: 1px solid #2a2f3d;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 4px;
+  border-bottom: 1px solid #202630;
+}

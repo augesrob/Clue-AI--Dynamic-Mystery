@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; media-src 'self'; style-src 'self' 'unsafe-inline';">
+  <meta charset="UTF-8">
+  <title>Streamer Control Panel</title>
+  <link rel="stylesheet" href="control.css">
+</head>
+<body>
+  <h2>🎮 Streamer Control Panel</h2>
+
+  <div class="controls">
+    <input id="commandInput" type="text" placeholder="Enter TikTok or manual command (e.g. .m kitchen)">
+    <button id="sendBtn">Send</button>
+  </div>
+
+  <div class="volumes">
+    <label>🎵 Music Volume: <input id="musicVol" type="range" min="0" max="100" value="35"></label>
+    <label>💥 FX Volume: <input id="fxVol" type="range" min="0" max="100" value="75"></label>
+  </div>
+
+  <div id="solution" class="solutionBox">🧩 Awaiting clues...</div>
+
+  <script src="control.js"></script>
+</body>
+</html>

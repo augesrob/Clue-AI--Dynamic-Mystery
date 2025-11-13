@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; media-src 'self'; style-src 'self' 'unsafe-inline';">
+  <meta charset="UTF-8" />
+  <title>Clue AI: Dynamic Mystery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="background"></div>
+
+  <header id="top-bar">
+    <h1>🕵️ Clue AI: Dynamic Mystery</h1>
+    <p id="status">Free Play — waiting for command…</p>
+  </header>
+
+  <main id="game-content">
+    <section class="grid-section">
+      <h2>Suspects</h2>
+      <div id="suspectGrid" class="card-grid"></div>
+    </section>
+
+    <section class="grid-section">
+      <h2>Weapons</h2>
+      <div id="weaponGrid" class="card-grid"></div>
+    </section>
+
+    <section class="grid-section">
+      <h2>Rooms</h2>
+      <div id="roomGrid" class="card-grid"></div>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <p>Use TikTok commands (.m, .s, .a, .select)</p>
+  </footer>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
