@@ -1,0 +1,13 @@
+{
+  "name": "clue-ai-dynamic-mystery",
+  "version": "2.5.0",
+  "description": "TikTok-interactive Clue AI game with control, detective, and log panels.",
+  "main": "main.cjs",
+  "scripts": {
+    "start": "electron ."
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "electron": "^31.0.0"
+  }
+}
